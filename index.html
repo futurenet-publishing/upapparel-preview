@@ -1,5 +1,9 @@
-
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UP Apparel | Military-Inspired Streetwear &amp; Gym Wear UK</title>
 <meta name="description" content="Veteran-founded UK clothing brand. Military-inspired heavyweight T-shirts, hoodies and caps, including Arnhem, St Michael and Remembrance special editions.">
 <link rel="canonical" href="https://upapparel.co.uk/">
@@ -11,8 +15,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="assets/site.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://upapparel.co.uk/#org","name":"UP Apparel","url":"https://upapparel.co.uk","logo":"https://upapparel.co.uk/assets/logo.png","slogan":"Utrinque Paratus. Ready for anything.","description":"Veteran-founded UK brand making military-inspired streetwear, gym wear and everyday clothing.","founder":{"@type":"Person","name":"James","description":"British Army veteran, 24 years’ service"},"sameAs":[]},{"@type":"WebSite","@id":"https://upapparel.co.uk/#site","url":"https://upapparel.co.uk","name":"UP Apparel","publisher":{"@id":"https://upapparel.co.uk/#org"}}]}</script>
-
-
+</head>
+<body class="">
 <div class="concept">Concept design by FutureNet Publishing for UP Apparel. Not a live shop: products and prices from upapparel.co.uk, 11 November 2026.</div>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
@@ -154,3 +158,5 @@ document.querySelector('.menu').addEventListener('click', function () { var o = 
 document.querySelectorAll('[data-demo]').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); var n = b.parentNode.querySelector('.demo-note'); if (n) n.hidden = false; }); });
 document.querySelectorAll('.swatches').forEach(function (g) { g.addEventListener('change', function (e) { var out = g.querySelector('[data-picked]'); if (out) out.textContent = e.target.value; var key = e.target.getAttribute('data-colour'), gal = document.querySelector('[data-gallery]'); if (!key || !gal) return; var pics = gal.querySelectorAll('img'), has = [].some.call(pics, function (i) { return i.getAttribute('data-colour') === key; }); if (!has) return; [].forEach.call(pics, function (i) { var c = i.getAttribute('data-colour'); i.hidden = !(c === key || c === 'all'); }); var firstOwn = gal.querySelector('img[data-colour="' + key + '"]'); gal.insertBefore(firstOwn, gal.firstChild); }); });
 </script>
+</body>
+</html>
